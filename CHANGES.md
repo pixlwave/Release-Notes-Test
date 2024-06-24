@@ -1,3 +1,14 @@
+## Changes in v0.17.0 (2024-06-24)
+
+What's Changed
+#📄 Documentation
+* Add more info to the readme. by @pixlwave in https://github.com/pixlwave/Release-Notes-Test/pull/12
+#Others
+* Tidy-up after testing releases. by @pixlwave in https://github.com/pixlwave/Release-Notes-Test/pull/13
+
+
+**Full Changelog**: https://github.com/pixlwave/Release-Notes-Test/compare/v0.16.0...v0.17.0
+
 ## Changes in v0.16.0 (2024-06-24)
 
 What's Changed
