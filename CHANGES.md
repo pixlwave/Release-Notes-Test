@@ -1,3 +1,12 @@
+## Changes in v0.16.0 (2024-06-24)
+
+What's Changed
+#🙌 Improvements
+* Tidy up formatting. by @pixlwave in https://github.com/pixlwave/Release-Notes-Test/pull/10
+
+
+**Full Changelog**: https://github.com/pixlwave/Release-Notes-Test/compare/v0.15.0...v0.16.0
+
 ## Changes in v0.15.0 (2024-06-24)
 
 
