@@ -1,0 +1,17 @@
+lane :release_to_github do |options|
+  api_token = ENV["GITHUB_TOKEN"]
+  UI.user_error!("Invalid GitHub API token.") unless !api_token.to_s.empty?
+  
+  release_version = options[:version]
+  UI.user_error!("Missing version to realease.") unless !api_token.to_s.empty?
+
+  github_release = set_github_release(
+    repository_name: "pixlwave/Release-Notes-Test",
+    api_token: api_token,
+    name: release_version,
+    tag_name: release_version,
+    is_generate_release_notes: true,
+  )
+  
+  UI.success github_release[:name] + "\n\n" + github_release[:body]
+end
