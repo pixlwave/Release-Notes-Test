@@ -1,3 +1,19 @@
+## Changes in v0.19.0 (2024-06-24)
+
+### What's Changed
+
+✨ Features
+* Add the best feature ever. by @pixlwave in https://github.com/pixlwave/Release-Notes-Test/pull/16
+
+🐛 Bugfixes
+* Make sure feature 1 works for new users. by @pixlwave in https://github.com/pixlwave/Release-Notes-Test/pull/17
+
+🧱 Build
+* Remove failing workflow. by @pixlwave in https://github.com/pixlwave/Release-Notes-Test/pull/18
+
+
+**Full Changelog**: https://github.com/pixlwave/Release-Notes-Test/compare/v0.18.0...v0.19.0
+
 ## Changes in v0.18.0 (2024-06-24)
 
 ### What's Changed
