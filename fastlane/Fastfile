@@ -13,5 +13,5 @@ lane :release_to_github do |options|
     is_generate_release_notes: true,
   )
   
-  UI.success github_release[:name] + "\n\n" + github_release[:body]
+  UI.success github_release
 end
