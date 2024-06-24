@@ -1,4 +1,6 @@
 lane :release_to_github do |options|
+  ensure_git_branch(branch: "main")
+  
   api_token = ENV["GITHUB_TOKEN"]
   UI.user_error!("Invalid GitHub API token.") unless !api_token.to_s.empty?
   
@@ -24,4 +26,8 @@ lane :release_to_github do |options|
     file.rewind
     file.write("## Changes in #{release_version} (#{release_date})#{generated_notes}\n\n#{content}")
   end
+  
+  # simulate prepare next version step.
+  git_commit(path: "./CHANGES.md", message: "Prepare next version")
+  git_push
 end
