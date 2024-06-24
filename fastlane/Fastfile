@@ -29,5 +29,5 @@ lane :release_to_github do |options|
   
   # simulate prepare next version step.
   git_commit(path: "./CHANGES.md", message: "Prepare next version")
-  git_push
+  push_to_git_remote
 end
