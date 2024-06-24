@@ -13,5 +13,15 @@ lane :release_to_github do |options|
     is_generate_release_notes: true,
   )
   
-  UI.success github_release[:body]
+  release_date = Date.today.strftime("%Y-%m-%d")
+  generated_notes = github_release["body"].gsub(/<!-- .*? -->/, '')
+  UI.user_error!("The generated release notes are missing!") unless !generated_notes.to_s.empty?
+  
+  # Prepend the new release notes to the CHANGES.md file
+  changes_file = "../CHANGES.md"
+  File.open(changes_file, "r+") do |file|
+    content = file.read
+    file.rewind
+    file.write("## Changes in #{release_version} (#{release_date})#{generated_notes}\n\n#{content}")
+  end
 end
