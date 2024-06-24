@@ -16,7 +16,7 @@ lane :release_to_github do |options|
   )
   
   release_date = Date.today.strftime("%Y-%m-%d")
-  generated_notes = github_release["body"].gsub(/<!-- .*? -->/, '').gsub("### ", "").gsub("## ", "### ")
+  generated_notes = github_release["body"].gsub(/<!-- .*? -->/, '').gsub("### ", "\n").gsub("## ", "### ")
   UI.user_error!("The generated release notes are missing!") unless !generated_notes.to_s.empty?
   
   # Prepend the new release notes to the CHANGES.md file
