@@ -10,10 +10,10 @@
 
 ## Changes in v0.17.0 (2024-06-24)
 
-What's Changed
-#📄 Documentation
+### What's Changed
+📄 Documentation
 * Add more info to the readme. by @pixlwave in https://github.com/pixlwave/Release-Notes-Test/pull/12
-#Others
+Others
 * Tidy-up after testing releases. by @pixlwave in https://github.com/pixlwave/Release-Notes-Test/pull/13
 
 
@@ -21,8 +21,8 @@ What's Changed
 
 ## Changes in v0.16.0 (2024-06-24)
 
-What's Changed
-#🙌 Improvements
+### What's Changed
+🙌 Improvements
 * Tidy up formatting. by @pixlwave in https://github.com/pixlwave/Release-Notes-Test/pull/10
 
 ## Changes in v0.13.0 (2024-06-24)
