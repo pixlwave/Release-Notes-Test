@@ -1,3 +1,13 @@
+## Changes in v0.20.0 (2024-06-25)
+
+### What's Changed
+
+✨ Features
+* Implement a really big feature and change lots of things. by @pixlwave in https://github.com/pixlwave/Release-Notes-Test/pull/19
+
+
+**Full Changelog**: https://github.com/pixlwave/Release-Notes-Test/compare/v0.19.0...v0.20.0
+
 ## Changes in v0.19.0 (2024-06-24)
 
 ### What's Changed
