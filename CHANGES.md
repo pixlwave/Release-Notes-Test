@@ -1,3 +1,14 @@
+## Changes in v0.21.0 (2024-06-25)
+
+### What's Changed
+
+Others
+* Try having both a misc label and a wildcard together. by @pixlwave in https://github.com/pixlwave/Release-Notes-Test/pull/20
+* Tidy up an unimportant implementation. by @pixlwave in https://github.com/pixlwave/Release-Notes-Test/pull/21
+
+
+**Full Changelog**: https://github.com/pixlwave/Release-Notes-Test/compare/v0.20.0...v0.21.0
+
 ## Changes in v0.20.0 (2024-06-25)
 
 ### What's Changed
