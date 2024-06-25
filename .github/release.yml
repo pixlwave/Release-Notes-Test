@@ -23,8 +23,9 @@ changelog:
         - pr-doc
     - title: 🚧 In development 🚧
       labels:
-        - pr-"wip
+        - pr-wip
 
     - title: Others
       labels:
+        - pr-misc
         - "*"
