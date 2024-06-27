@@ -1,3 +1,19 @@
+## Changes in v0.22.0 (2024-06-27)
+
+### What's Changed
+
+✨ Features
+* Add the next amazing feature. by @pixlwave in https://github.com/pixlwave/Release-Notes-Test/pull/22
+
+🙌 Improvements
+* Add flexibility for more types of user. by @pixlwave in https://github.com/pixlwave/Release-Notes-Test/pull/24
+
+🐛 Bugfixes
+* Fix a really annoying bug. by @pixlwave in https://github.com/pixlwave/Release-Notes-Test/pull/23
+
+
+**Full Changelog**: https://github.com/pixlwave/Release-Notes-Test/compare/v0.21.0...v0.22.0
+
 ## Changes in v0.21.0 (2024-06-25)
 
 ### What's Changed
